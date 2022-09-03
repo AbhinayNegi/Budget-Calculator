@@ -58,6 +58,7 @@ public class BudgetFrame extends JFrame {
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		setLocationRelativeTo(null);
 		
 		JLabel lblSal = new JLabel("Salary");
 		lblSal.setHorizontalAlignment(SwingConstants.CENTER);
